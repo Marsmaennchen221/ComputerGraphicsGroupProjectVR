@@ -2807,6 +2807,28 @@ Transform:
   - {fileID: 1848125091}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &442677363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6405027494079237309, guid: d09a2848af436ae49b9da2bb2aa2fda9, type: 3}
+  m_PrefabInstance: {fileID: 1088779777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &442677367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442677363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67a1714666e6bb648a9c87556b4a17da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoopRingColliders
+  radius: 0.465
+  positionOffset: {x: 0, y: 0.45, z: 0}
+  colliderLength: 0.12
+  colliderRadius: 0.05
+  colliderCount: 18
 --- !u!1001 &446180821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5734,7 +5756,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6405027494079237309, guid: d09a2848af436ae49b9da2bb2aa2fda9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 442677367}
   m_SourcePrefab: {fileID: 100100000, guid: d09a2848af436ae49b9da2bb2aa2fda9, type: 3}
 --- !u!1001 &1110527883
 PrefabInstance:
