@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "ComputerGraphicsGroupProjectVR-room.slnx"
+    "dotnet.defaultSolution": "ComputerGraphicsGroupProjectVR.slnx"
 }

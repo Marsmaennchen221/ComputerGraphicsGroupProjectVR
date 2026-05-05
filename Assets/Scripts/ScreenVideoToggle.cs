@@ -14,14 +14,15 @@ public class ScreenVideoToggle : MonoBehaviour
     private readonly string baseMap = "_BaseMap";
     private readonly string emissionMap = "_EmissionMap";
 
-    private bool videoOn = true;
+    private bool videoOn = false;
 
     void Start()
     {
         screenMat = screenRenderer.material;
 
         videoPlayer.targetTexture = videoRenderTexture;
-        ShowVideo();
+        //ShowVideo();
+        ShowImage();
     }
 
     public void ToggleVideo()
